@@ -1,3 +1,49 @@
 h1 {
+    text-align: center;
     color:chartreuse;
 }
+
+h2 {
+    text-align: center;
+    color:crimson
+}
+
+button {
+    background-color:chartreuse;
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    width: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+}
+
+/* 
+essa parte é opicional para definir a cor do fundo;
+cor segundária do fundo;
+cor do texto;
+
+:root {
+    --bg-color: #número da cor;
+    --segundary-bg-color: #número da cor;
+    --text-color: #número da cor;
+    --main-color: #número da cor;
+}
+
+Nessa parte,  a tag boddy, representa a tag boddy no HTML, definindo o que vai estar dentro dela 
+(já que a teg baddy se refere a parte visual do código(
+body {
+    backgroung-color: var (--bg_color);
+    color: var(--text-color);
+*/
