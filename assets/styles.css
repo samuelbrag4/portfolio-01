@@ -16,6 +16,7 @@ button {
     text-decoration: none;
     margin-bottom: 1em;
     width: 100px;
+    translate: 100%;
 }
 
 * {
@@ -29,16 +30,38 @@ button {
     font-family: "poppins", sans-serif;
 }
 
-/* 
-essa parte é opicional para definir a cor do fundo;
-cor segundária do fundo;
-cor do texto;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 16rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo span {
+    color: var(--main-color);
+    text-shadow: 0 0 5px var(--main-color);
+}
+
 
 :root {
-    --bg-color: #número da cor;
-    --segundary-bg-color: #número da cor;
-    --text-color: #número da cor;
-    --main-color: #número da cor;
+    --bg-color: #080808;
+    --segundary-bg-color: #05d905;
+    --text-color: #e8f5e8;
+    --main-color: rgb(92, 17, 184);
 }
 
 Nessa parte,  a tag boddy, representa a tag boddy no HTML, definindo o que vai estar dentro dela 
@@ -46,4 +69,3 @@ Nessa parte,  a tag boddy, representa a tag boddy no HTML, definindo o que vai e
 body {
     backgroung-color: var (--bg_color);
     color: var(--text-color);
-*/
